@@ -1,4 +1,4 @@
-#include "find_mean.h"
+ #include "find_mean.h"
 
 Find_mean volt_ave;
 
@@ -13,6 +13,11 @@ void setup() {
   Serial.println("Starting!");
 
   volt_ave.sample_size(3);
+   Serial.begin(1152);
+  Serial.println("Ssssss);
+  Serial.println("Ssssss);
+  Serial.println("ttttt);
+
 
 }
 
