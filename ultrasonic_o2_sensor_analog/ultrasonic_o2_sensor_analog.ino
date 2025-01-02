@@ -12,7 +12,7 @@ void setup() {
   Serial.begin(115200);
   Serial.println("Starting!");
 
-  volt_ave.sample_size(2);
+  volt_ave.sample_size(3);
 
 }
 
