@@ -47,7 +47,7 @@ void loop() {
   Serial.print(voltage, 2);
   Serial.print("V     Oxygen percentage: ");
   Serial.print(o2Percentage, 1); 
-  Serial.println("%");
-
+  Serial.print("%");
+Serial.println("ending");
 
 }
